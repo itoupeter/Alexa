@@ -42,9 +42,16 @@ Open [http://echo.amazon.com](http://echo.amazon.com) in browser to see the conv
 * Create a __Alexa Voice Service Device__ in developer console
 <br /><img src="/img/3.png" height=200 /><br />
 * Download __Alexa Sample App__ and generate __self-certified credentials__ using __OpenSSL__
-* Create __Lambda__ and select Java in AWS console
+* Create a __Lambda__ and select Java in AWS console
+<br /><img src="/img/10.png" height=100 /><br />
 * Coding command handling logic, build code and upload to Lambda in AWS console
-<br /><img src="/img/7.png" height=200 /><img src="/img/8.png" height=200 /><br />
-* Create a new __Alexa Skill__ and customize __Voice Schema__ in developer console
 <br /><img src="/img/9.png" height=200 /><br />
+* Create a new __Alexa Skill__ and customize __Voice Schema__ in developer console
+<br /><img src="/img/7.png" height=200 /><img src="/img/8.png" height=200 /><br />
 * Run sample app and test
+
+# Other Features
+* Customized Product Logo
+<br /><img src="/img/6.png" height=200 /><br />
+* Running on an __Amazon EC2 Virtual Machine__
+<br /><img src="/img/11.png" height=200 /><br />
