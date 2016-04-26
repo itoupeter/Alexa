@@ -1,11 +1,10 @@
 # Alexa
 
-HeavyWater Codeathon: Virtual Assistant
-
-Based on **Alexa Voice Service** and __Alexa Skills Kit__
+HeavyWater Codeathon: _Virtual Assistant_
 
 + Liang Peng
 + University of Pennsylvania
++ Based on **Alexa Voice Service** and __Alexa Skills Kit__
 
 # Video Demo
 [Video Link](https://vimeo.com/164201800)
@@ -30,16 +29,22 @@ Based on **Alexa Voice Service** and __Alexa Skills Kit__
  * Report the types of documents.
 
 # Live Cards
+<img src="/img/5.png" height=250 /><br />
 Open [http://echo.amazon.com](http://echo.amazon.com) in browser to see the conversation records.
 
 # Implementation Outline
 * Set up __Amazon AWS__ account
 * Set up __Amazon Developer__ account
 * Create a __Security Profile__ in developer console
+<br /><img src="/img/1.png" height=200 /><br />
 * Set up __Login with Amazon__ tab in developer console
+<br /><img src="/img/2.png" height=200 /><br />
 * Create a __Alexa Voice Service Device__ in developer console
+<br /><img src="/img/3.png" height=200 /><br />
 * Download __Alexa Sample App__ and generate __self-certified credentials__ using __OpenSSL__
 * Create __Lambda__ and select Java in AWS console
 * Coding command handling logic, build code and upload to Lambda in AWS console
+<br /><img src="/img/7.png" height=200 /><img src="/img/8.png" height=200 /><br />
 * Create a new __Alexa Skill__ and customize __Voice Schema__ in developer console
+<br /><img src="/img/9.png" height=200 /><br />
 * Run sample app and test
