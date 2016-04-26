@@ -31,3 +31,15 @@ Based on **Alexa Voice Service** and __Alexa Skills Kit__
 
 # Live Cards
 Open [http://echo.amazon.com](http://echo.amazon.com) in browser to see the conversation records.
+
+# Implementation Outline
+* Set up __Amazon AWS__ account
+* Set up __Amazon Developer__ account
+* Create a __Security Profile__ in developer console
+* Set up __Login with Amazon__ tab in developer console
+* Create a __Alexa Voice Service Device__ in developer console
+* Download __Alexa Sample App__ and generate __self-certified credentials__ using __OpenSSL__
+* Create __Lambda__ and select Java in AWS console
+* Coding command handling logic, build code and upload to Lambda in AWS console
+* Create a new __Alexa Skill__ and customize __Voice Schema__ in developer console
+* Run sample app and test
