@@ -1,0 +1,19 @@
+Make sure following environments are installed:
+- Apache Maven
+- Java 8
+
+1. Double click Service.bat
+2. Double click Client.bat
+3. DO NOT click OK! Copy the url in the popped up window (starting with https://localhost:3000) and paste it in a browser and enter. If you are warned with security issue, just select ignore and go ahead.
+4. Click OK.
+5. Now you can talk with Alexa after clicking "start listening".
+
+Try following commands:
+1. HeavyWater
+2. What can you do?
+3. I have a file to upload.
+4. Process the file.
+5. What's the largest deposit?
+6. Report the types of documents.
+
+Open http://echo.amazon.com in browser to see the conversation records.

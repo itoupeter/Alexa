@@ -1,0 +1,21 @@
+[req]
+distinguished_name      = req_distinguished_name
+prompt                  = no
+
+[v3_req]
+subjectAltName          = @alt_names
+
+[alt_names]
+DNS.1                   = localhost
+DNS.2                   = 8.8.8.8
+IP.1                    = 127.0.0.1
+IP.2                    = 10.0.2.2
+IP.3                    = 52.207.245.174
+
+[req_distinguished_name]
+commonName              = $ENV::COMMON_NAME                 # CN=
+countryName             = US                                # C=
+stateOrProvinceName     = PA                                # ST=
+localityName            = Philadelphia                      # L=
+organizationName        = UPenn                             # O=
+organizationalUnitName  = SEAS                              # OU=

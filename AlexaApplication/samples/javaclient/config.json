@@ -1,0 +1,19 @@
+{
+    "productId":"my_device",
+    "dsn":"123456",
+    "provisioningMethod":"companionService",
+    "avsHost":"https://avs-alexa-na.amazon.com",
+    "companionApp":{
+        "localPort":8443,
+        "lwaUrl":"https://api.amazon.com",
+        "sslKeyStore":"./certs/server/jetty.pkcs12",
+        "sslKeyStorePassphrase":"123456"
+    },
+    "companionService":{
+        "serviceUrl":"https://localhost:3000",
+        "sslClientKeyStore":"./certs/client/client.pkcs12",
+        "sslClientKeyStorePassphrase":"123456",
+        "sslCaCert":"./certs/ca/ca.crt",
+        "sessionId":"a390b6fb-6818-47ca-a3af-c4fae86514e8"
+    }
+}
